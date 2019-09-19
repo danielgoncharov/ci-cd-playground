@@ -10,6 +10,9 @@ Welcome to ci-cd-playground's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   quickstart
+   develop
+
 
 
 Indices and tables
