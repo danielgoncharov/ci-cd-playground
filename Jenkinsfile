@@ -1,5 +1,3 @@
-@Library('powerpony') _
-
 pipeline {
     agent any
 
