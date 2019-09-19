@@ -4,6 +4,9 @@ import yaml
 
 
 def build_parser():
+    """
+    Loading
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '-c', '--config', dest='config', action='store', type=str,
@@ -19,6 +22,9 @@ def load_config(file_name):
 
 
 def main():
+    """
+       Do some magic
+    """
     parser = build_parser()
     params, other_params = parser.parse_known_args()
     conf = load_config(params.config)
