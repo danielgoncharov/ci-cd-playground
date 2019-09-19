@@ -5,7 +5,7 @@ import yaml
 
 def build_parser():
     """
-    Loading
+    Build parser
     """
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -17,6 +17,10 @@ def build_parser():
 
 
 def load_config(file_name):
+    """
+       Load config
+       :param file_name
+    """
     with open(file_name,"r") as conf_file:
         return yaml.safe_load(conf_file.read())
 

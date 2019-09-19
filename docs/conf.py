@@ -12,12 +12,12 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('..'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'ci-cd-playground'
+project = 'ci_cd_playground'
 copyright = '2019, Daniel'
 author = 'Daniel'
 
@@ -28,7 +28,8 @@ author = 'Daniel'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinxarg.ext'
+    'sphinxarg.ext',
+    'sphinx.ext.autodoc'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
